@@ -1,0 +1,56 @@
+2020/2/4 星期二 11:52:03: Creating log...
+
+编译项目变更...
+--------
+- 项目文件名: C:\Users\33572\Desktop\GIT\Snake-GUI\Snake-GUI.dev
+- 编译器名: TDM-GCC 4.9.2 64-bit Release
+
+生成 makefile...
+--------
+- 文件名: C:\Users\33572\Desktop\GIT\Snake-GUI\Makefile.win
+- 资源文件: C:\Users\33572\Desktop\GIT\Snake-GUI\Windows_programs\Obj_file\Snake-GUI_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "C:\Users\33572\Desktop\GIT\Snake-GUI\Makefile.win" all
+
+g++.exe -c main.cpp -o Windows_programs/Obj_file/main.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Users/33572/Desktop/GIT/Snake-GUI" 
+windres.exe -i Snake-GUI_private.rc --input-format=rc -o Windows_programs/Obj_file/Snake-GUI_private.res -O coff 
+g++.exe Windows_programs/Obj_file/main.o Windows_programs/Obj_file/Snake-GUI_private.res -o Windows_programs/Snake-GUI.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -mwindows
+
+编译结果...
+--------
+- 错误: 0
+- 警告: 0
+- 输出文件名: C:\Users\33572\Desktop\GIT\Snake-GUI\Windows_programs\Snake-GUI.exe
+- 输出大小: 139.9677734375 KiB
+- 编译时间: 2.39s
+
+2020/2/4 星期二 11:54:40: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: C:\Users\33572\Desktop\GIT\Snake-GUI\Snake-GUI.dev
+- 编译器名: TDM-GCC 4.9.2 64-bit Release
+
+生成 makefile...
+--------
+- 文件名: C:\Users\33572\Desktop\GIT\Snake-GUI\Makefile.win
+- 资源文件: C:\Users\33572\Desktop\GIT\Snake-GUI\Windows_programs\Obj_file\Snake-GUI_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "C:\Users\33572\Desktop\GIT\Snake-GUI\Makefile.win" all
+
+windres.exe -i Snake-GUI_private.rc --input-format=rc -o Windows_programs/Obj_file/Snake-GUI_private.res -O coff 
+g++.exe Windows_programs/Obj_file/main.o Windows_programs/Obj_file/Snake-GUI_private.res -o Windows_programs/Snake-GUI.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -mwindows
+
+编译结果...
+--------
+- 错误: 0
+- 警告: 0
+- 输出文件名: C:\Users\33572\Desktop\GIT\Snake-GUI\Windows_programs\Snake-GUI.exe
+- 输出大小: 139.9677734375 KiB
+- 编译时间: 0.89s
